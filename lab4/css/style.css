@@ -1,0 +1,50 @@
+/*Task one*/
+
+#education,
+.list-title {
+  cursor: pointer;
+  user-select: none;
+}
+
+.education-active {
+  background: coral;
+  color: #11480d;
+}
+
+.list-title-active {
+  background: #b20000;
+  color: lightblue;
+}
+
+/*Task two*/
+
+.template {
+  display: none;
+}
+
+img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 40px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background: royalblue;
+  color: #fff;
+  border-radius: 0.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.image-decorator {
+  width: 900px;
+  height: 431px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
