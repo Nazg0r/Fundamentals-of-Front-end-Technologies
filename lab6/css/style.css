@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-background-color: #97b5c5;
+  --primary-card-background-color: #c1dee2;
+  --button-color: #4fa0de;
+}
+
+body {
+  padding: 0 2rem;
+  background: var(--primary-background-color);
+  height: 100vh;
+  font-size: 1.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.r-users__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 0 0;
+}
+
+.r-users__content {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.r-user-image {
+  width: 100%;
+}
+
+.r-user__card {
+  background: var(--primary-card-background-color);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.r-user__stats li {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 0 0.25rem;
+}
+
+
+.reload-r-users {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 1rem 4.5rem;
+  font-size: 1.2rem;
+  width: 250px;
+  cursor: pointer;
+  background: var(--button-color);
+  border: none;
+  border-radius: 0.4rem;
+
+  &:hover, &:active {
+    background: #5795c4;
+    opacity: 0.8;
+  }
+}
