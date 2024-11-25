@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    padding: 0.5rem;
+}
+
+#education,
+.list-title {
+    cursor: pointer;
+    user-select: none;
+}
+
+.education-active {
+    background: coral;
+    color: #11480d;
+}
+
+.list-title-active {
+    background: #b20000;
+    color: lightblue;
+}
+
+img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.image-decorator {
+    width: 900px;
+    height: 431px;
+    overflow: hidden;
+    margin: 2rem 0 2rem 40px ;
+}
+
+.good_card {
+    max-width: 10rem;
+}
+

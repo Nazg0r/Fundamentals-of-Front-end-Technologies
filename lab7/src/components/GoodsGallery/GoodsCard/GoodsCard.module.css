@@ -1,0 +1,25 @@
+
+.goods_card {
+    max-width: 20rem;
+    padding: 1rem 2rem;
+    font-size: 0.875rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    line-height: 0;
+    transition: all 0.3s ease-in-out;
+
+    &:hover, &:active {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
+
+.goods_card img {
+    max-width: 16rem;
+}
+
+.good_name, .good_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
